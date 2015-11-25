@@ -1,6 +1,7 @@
 language: node_js
 deploy:
   provider: heroku
+  skip_cleanup: true
   api_key:
     secure: a3Z2eSVvZfg/FuyJXE72+F3Kg5pcIakZsWV0nyAkdhZGtD7Aw/Xe9ABOfa2Qts9p9T09tpSFQqMqI15t/Il9P/THwA8T8sdEur1u4T46n3vbud/mM4RO1faxD60JymaqF9zc+ElaoxQ/t/kmekRJS3OmmmLAx3tQ+b+IoZC/60ut/WBVVmK80MmL/Rug0Eu5A6vHzsqTpC3ZM21YZD5m2k6n+kLV2MhN9+V+3BnDkARAZ2hEFbmparL2MALwOiiHyyN2OT+4beR5OhKPT/JmzRY5qfKWT1kmI+kVzRal6UC+g6QGZSBJAs5LrXi+U1oeNT1vOYQ3HcMihH8Gq62Szj5mRD92XP48q+7eA//iI3AbSvAzJyXXiIpHEvoslcc/CqMNIBqrxTgtg5fxmwY2Lw9PuF+XgkJF5ypxRXMC3APW2uNbJnqNljKc+juM6ZkXQIiPyE2RC9lSiQnnt+D9Hm0UBXRBrDVokM4G4VHOyxuAvkEPlV/pGagQbumPovq2qKwWhrmQ68CQ4dsKH44BZjM19jWxmbp9UBGRc8dF/3uD4Q2aS9p89ODHq74C+9G57gfhh++8wjQsyYBdkDd4sqT6HfOylGeNz3wXgUc0b5xw+wm7iL/9KER81741Xffch8a8D1cHsAA33nD66dsvs85s+uyy10HF2xa27E5fKfw=
   app: ancient-ravine-2889
