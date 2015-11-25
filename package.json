@@ -9,7 +9,7 @@
   "scripts": {
     "preinstall": "npm install -g grunt-cli",
     "test": "grunt test",
-    "postinstall": "bower install && grunt"
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
