@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Run prod tasks before commit
+grunt --env="prod"

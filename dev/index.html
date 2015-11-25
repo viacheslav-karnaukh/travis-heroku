@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Employees Collection</title>
+		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="../bower_components/highlightjs/styles/github.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="page-header text-center well">
+				<h1>Employees Data</h1>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<div class="handling well">
+						<h2>Web source</h2>
+						<p>JSON data is placed <a href="http://viacheslav-karnaukh.github.io/employees/json/employeesCollection.json">here</a>, but you can place a link to any valid JSON source you like. One more JSON is placed <a href="http://viacheslav-karnaukh.github.io/employees/json/testEmployees.json">here</a>.</p>
+						<input type="text" id="webSource" value="http://viacheslav-karnaukh.github.io/employees/json/employeesCollection.json">
+						<button id="getDataWeb">Get data from web</button>
+						<h2>Texrarea source</h2>
+						<p>You can get data from textarea field. You should place valid JSON data in this field.</p>
+						<textarea></textarea>
+						<button id="getDataArea">Get data from textarea</button>
+						<ul class="helpers">
+							<li>
+								<button id="getInfo">Count avg salary</button>
+							</li>
+							<li>
+								<button id="getTop5">Show</button>
+								<input type="number" min="1" value="5" id="topNames">
+								<label for="topNames">top names</label>
+							</li>
+							<li>
+								<button id="getLast3Ids">Show</button>
+								<input type="number" min="1" value="3" id="lastIds">
+								<label for="lastIds">last id's</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="output well">
+						<h2>Output</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../bower_components/jquery/dist/jquery.js"></script>
+		<script src="../bower_components/highlightjs/highlight.pack.js"></script>
+		<script src="js/components/Employee.js"></script>
+		<script src="js/components/FixedSalaryEmployee.js"></script>
+		<script src="js/components/HourlySalaryEmployee.js"></script>
+		<script src="js/components/createEmployee.js"></script>
+		<script src="js/components/EmployeesCollection.js"></script>
+		<script src="js/components/EmployeesView.js"></script>
+		<script src="js/components/main.js"></script>
+	</body>
+</html>

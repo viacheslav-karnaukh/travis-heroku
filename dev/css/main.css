@@ -1,0 +1,42 @@
+html, body {
+	font-family: sans-serif;
+	color: #555;
+	height: 100%;
+}
+.container-fluid {
+	min-height: 100%;
+}
+.handling,
+.output {
+	overflow-y: auto;
+	height: 100%;
+	min-height: 100%;
+}
+textarea,
+input {
+	width: 300px;
+	border: 3px solid #ccc;
+}
+textarea {
+	height: 320px;
+	vertical-align: middle;
+}
+button {
+	height: 30px;
+	border: 3px solid #ccc;
+	background: linear-gradient(#fff, #eee);
+	cursor: pointer;
+}
+.helpers {
+	margin: 20px 0;
+	padding: 20px 0;
+	border-top: 2px dotted #ccc;
+	border-top: 1px dotted #ccc;
+	list-style: none;
+}
+.helpers li {
+	margin: 5px 0;
+}
+input[type=number] {
+	width: 40px;
+}
